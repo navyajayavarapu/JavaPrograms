@@ -1,0 +1,32 @@
+//Write program using constructor display following cricket player details Accessing object data through reference
+
+
+public class PlayersDetails
+{
+                String name;
+		int DOB;
+                int age;
+                int cen;
+                int hcen;
+		
+		}
+			Playerdetails(String n,int a,int b,int c,int d)
+
+	{
+		        this.name=n;
+                        this.DOB=a;
+                        this.age=b;
+                        this.cen=c; 
+                        this.hcen=d;
+
+	}
+			public static void main(String[] args)
+			{
+				Playeretails obj1=new Persondetails();
+				Playerdetails obj2=new Persondetails("Dhoni","23-04-1970,35,100,50);
+				System.out.println(obj1.name+" "+obj1.age);
+				System.out.println(obj2.name+" "+obj2.age);
+				
+			}
+
+}
